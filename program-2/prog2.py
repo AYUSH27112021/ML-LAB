@@ -74,6 +74,6 @@ def candidate_elimination(examples):
         print("\nS[{0}]:".format(i),S)
         print("\nG[{0}]:".format(i),G)
     return
-with open('C:\\Users\\bhart\\OneDrive\\Documents\\Book1.csv') as csvFile:
+with open(r'D:\github\ML\ML-LAB\program-2\book.csv') as csvFile:
     examples=[tuple(line) for line in csv.reader(csvFile)]
 candidate_elimination(examples)                       
