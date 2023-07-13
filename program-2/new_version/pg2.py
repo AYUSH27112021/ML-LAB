@@ -34,13 +34,4 @@ def learn(concepts, target):
         print("Specific Bundary after ", i+1, "Instance is ", specific_h)         
         print("Generic Boundary after ", i+1, "Instance is ", general_h)
         print("\n")
-
-    indices = [i for i, val in enumerate(general_h) if val == ['?', '?', '?', '?', '?', '?']]    
-    for i in indices:   
-        general_h.remove(['?', '?', '?', '?', '?', '?']) 
-    return specific_h, general_h 
-
-s_final, g_final = learn(concepts, target)
-
-print("Final Specific_h: ", s_final, sep="\n")
-print("Final General_h: ", g_final, sep="\n")
+learn(concepts, target)
