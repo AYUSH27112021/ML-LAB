@@ -4,7 +4,7 @@ import pandas as pd
 data = pd.read_csv(r'D:\github\ML\ML-LAB\program-1\ENJOYSPORT.csv')
 concepts = np.array(data.iloc[:,0:-1])
 print("\nInstances are:\n",concepts)
-target = np.array(data.iloc[:,-1])
+target = np.array(data.iloc[:,-1],dtype=np.int64)
 print("\nTarget Values are: ",target)
 
 def learn(concepts, target): 
