@@ -1,0 +1,36 @@
+Episode 100/1000, Total Reward: 66
+Episode 200/1000, Total Reward: 88
+Episode 300/1000, Total Reward: 66
+Episode 400/1000, Total Reward: 77
+Episode 500/1000, Total Reward: 78
+Episode 600/1000, Total Reward: 77
+Episode 700/1000, Total Reward: 88
+Episode 800/1000, Total Reward: 65
+Episode 900/1000, Total Reward: 87
+Episode 1000/1000, Total Reward: 87
+
+Trained Q-table:
+[[ 55.881       62.09        55.881       62.09      ]
+ [ 62.09        70.1         55.881       70.1       ]
+ [ 70.09929213  89.          62.08952248  70.02644093]
+ [ 55.881       45.881       62.09        70.1       ]
+ [ 62.09        88.99982513  62.09        89.        ]
+ [ 70.1        100.          70.1         89.        ]
+ [ 62.09        40.14587331  40.14585814  44.1484375 ]
+ [ 70.1         75.33883634  45.60498329  99.99997616]
+ [  0.           0.           0.           0.        ]]
+
+Agent path:
+Current State: S
+Action Taken: down
+---------
+Current State: -
+Action Taken: right
+---------
+Current State: x
+Action Taken: right
+---------
+Current State: -
+Action Taken: down
+---------
+Reached Goal: G
